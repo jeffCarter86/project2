@@ -4,7 +4,7 @@ using System.Text;
 
 namespace inheritance
 {
-    class Computer
+    class Computer : Player
     {
     }
 }

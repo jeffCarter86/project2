@@ -4,7 +4,13 @@ using System.Text;
 
 namespace inheritance
 {
-    class Class1
+    class Player
     {
+        protected string name;
+        protected int score;
+        protected int wins;
+        protected List<string> gestures;
+        protected bool validationCheck = false;
+        protected string playerChoice;
     }
 }

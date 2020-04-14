@@ -4,7 +4,7 @@ using System.Text;
 
 namespace inheritance
 {
-    class Game
+    class Game : GameConfig
     {
     }
 }
