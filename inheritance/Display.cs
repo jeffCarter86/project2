@@ -6,5 +6,11 @@ namespace inheritance
 {
     class Display
     {
+        public void BuildMenu(string menuMessage, string menuOptions)
+        {
+            Console.Clear();
+            Console.WriteLine(menuMessage);
+            Console.WriteLine(menuOptions);
+        }
     }
 }
