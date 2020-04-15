@@ -28,16 +28,16 @@ namespace inheritance
 
         public List<string> rules = new List<string>(new string[]
       {
-            "Rock crushes Scissors",
-            "Scissors cuts Paper",
-            "Paper covers Rock",
-            "Rock boulders Lizard",
-            "Lizard eats Spock",
-            "Spock destroys Scissors",
-            "Scissors chop Lizard",
-            "Lizard rips Paper",
-            "Paper disproves Spock",
-            "Spock vaporizes Rock"
+            "Rock crushes Scissors;",
+            "Scissors cuts Paper;",
+            "Paper covers Rock;",
+            "Rock boulders Lizard;",
+            "Lizard eats Spock;",
+            "Spock destroys Scissors;",
+            "Scissors chop Lizard;",
+            "Lizard rips Paper;",
+            "Paper disproves Spock;",
+            " AND Spock vaporizes Rock"
       }
       );
     }
