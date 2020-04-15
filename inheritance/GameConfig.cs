@@ -11,7 +11,7 @@ namespace inheritance
         public string mainMenuChoice;
         public int gameRound = 1;
         public int round = 1;
-        public int limit = 3;
+        public int limit = 5;
         public string playerOneChoice;
         public string playerTwoChoice;
         public bool validationCheck = false;

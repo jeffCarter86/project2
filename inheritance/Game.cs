@@ -15,7 +15,7 @@ namespace inheritance
             while (!validationCheck)
             {
 
-                Console.WriteLine("Here are the rules Hope you enjoy!! " + string.Join(" ", rules.ToArray()) );
+                Console.WriteLine("Here are the rules Hope you enjoy!! Best of five rounds wins: " + string.Join(" ", rules.ToArray()) );
                 Console.ReadLine();
                 display = new Display();
                 display.BuildMenu("Welcome to " + string.Join(" ", gestures.ToArray()), "Would you like to verse another (P)layer or the (C)omputer");
@@ -93,7 +93,7 @@ namespace inheritance
 
         public void EndGame()
         {
-            //Console.Clear();
+            
             Console.WriteLine("Is it over already?");
             Console.WriteLine("Go ahead go on and leave.");
             Console.ReadLine();
@@ -148,7 +148,6 @@ namespace inheritance
             }
         }
 
-        // https://stackoverflow.com/questions/9553058/scalable-solution-for-rock-paper-scissor
         public int WhoWins(int playerOne, int playerTwo)
         {
             int whoWon = (5 + playerOne - playerTwo) % 5;
