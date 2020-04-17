@@ -18,7 +18,7 @@ namespace inheritance
                 Console.WriteLine("Here are the rules - Hope you enjoy!! Best of five rounds wins: " + string.Join(" ", rules.ToArray()) );
                 Console.ReadLine();
                 display = new Display();
-                display.BuildMenu("Welcome to " + string.Join(" ", gestures.ToArray()), "Would you like to verse another (P)layer or the (C)omputer");
+                display.BuildMenu("Welcome to " + string.Join(" ", gestures.ToArray()), "Would you like to go against another (P)layer or the (C)omputer");
                 List<string> acceptableInput = new List<string>(new string[] { "p", "c" });
                 mainMenuChoice = Console.ReadLine();
                 validationCheck = ValidateInput(acceptableInput, mainMenuChoice);
